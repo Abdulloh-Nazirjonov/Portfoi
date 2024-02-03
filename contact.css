@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* background-color: black; */
+}
+
+.navbar .box {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 750;
+    margin-left: 10px;
+                    
+}
+
+.navbar .boxx {
+    padding: 0px 100px;
+    display: flex;
+    gap: 110px;
+    justify-self: flex-end;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boxx a {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 89vh;
+    border: 6px rgb(0, 2, 100) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    width: 500px;
+    height: 620px;
+    border-radius: 30px;
+    box-shadow: 9px 9px 9px 9px whitesmoke;
+    background-color: rgb(102, 57, 2);
+}
+
+.box1 h1 {
+    font-size: 50px;
+    color: goldenrod;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.b1 {
+    width: 450px;
+    height: 60px;
+    color: red;
+    font-size: 22px;
+    border-radius: 15px;
+    margin: 15px;
+    border: none;
+
+}
+
+.kat {
+    width: 450px;
+    margin: 15px;
+
+    border: none;
+}
+
+.kat::placeholder {
+    color: darkorange;
+    font-size: 23px;
+}
+.kat:focus{
+    
+    border: none;
+    outline: 3px darkorange solid;
+}
+
+.b1::placeholder {
+    color: darkorange;
+}
+
+.b1:focus {
+    color: darkorange;
+    border: none;
+    outline: 3px darkorange solid;
+
+}
