@@ -9,8 +9,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    /* background-color: black; */
+
+    background-color: black;
 }
 
 .navbar .box {
@@ -20,7 +20,7 @@
     font-size: 25px;
     font-weight: 750;
     margin-left: 10px;
-                    
+
 }
 
 .navbar .boxx {
@@ -38,19 +38,29 @@
     text-decoration: none;
 }
 
+.box h1 {
+    color: darkgoldenrod;
+}
+
+.box img {
+    color: darkgoldenrod;
+    background: darkgoldenrod;
+
+}
+
 .container {
     width: 100%;
     height: 89vh;
-    border: 6px rgb(0, 2, 100) solid;
     display: flex;
     justify-content: center;
+    background-color: black;
     align-items: center;
 }
 
 .box1 {
-    width: 500px;
+    width: 560px;
     height: 620px;
-    border-radius: 30px;
+    border-radius: 22px;
     box-shadow: 9px 9px 9px 9px whitesmoke;
     background-color: rgb(102, 57, 2);
 }
@@ -59,23 +69,27 @@
     font-size: 50px;
     color: goldenrod;
     font-family: sans-serif;
-    margin-left: 20px;
+    margin-left: 22px;
     margin-top: 15px;
 }
 
 .b1 {
-    width: 450px;
+    width: 530px;
     height: 60px;
     color: red;
-    font-size: 22px;
+    font-size: 18px;
     border-radius: 15px;
     margin: 15px;
     border: none;
 
 }
 
+.b1::placeholder {
+    padding-left: 8px;
+}
+
 .kat {
-    width: 450px;
+    width: 530px;
     margin: 15px;
 
     border: none;
@@ -84,9 +98,11 @@
 .kat::placeholder {
     color: darkorange;
     font-size: 23px;
+    padding-left: 8px;
 }
-.kat:focus{
-    
+
+.kat:focus {
+
     border: none;
     outline: 3px darkorange solid;
 }
@@ -100,4 +116,29 @@
     border: none;
     outline: 3px darkorange solid;
 
+}
+
+.box1 button {
+    width: 530px;
+    height: 68px;
+    font-size: 28px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: whitesmoke;
+    margin-top: 15px;
+    font-weight: 600;
+    font-family: serif;
+}
+
+.box1 button:active {
+
+    width: 500px;
+    height: 58px;
+    font-size: 35px;
+    background-color: rgb(255, 255, 255);
+
+    margin-left: 31px;
+    margin-top: 20px;
+    color: goldenrod;
 }
